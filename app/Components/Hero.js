@@ -5,7 +5,7 @@ import { FiTerminal } from 'react-icons/fi';
 
 const Hero = () => {
   return (
-    <section className="hero flex flex-col justify-center items-center text-center space-y-4 px-4 min-h-screen pt-20 mt-40">
+    <section className="hero flex flex-col justify-center items-center text-center space-y-4 px-4 min-h-screen  ">
       <Link href="/" className="border-b-2 text-blue-500 text-2xl">
         Join GDG on Campus
       </Link>
