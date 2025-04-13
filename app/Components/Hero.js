@@ -2,6 +2,7 @@ import Link from 'next/link';
 import React from 'react';
 import { RainbowButton } from '@/components/magicui/rainbow-button';
 import { FiTerminal } from 'react-icons/fi';
+import { ContainerTextFlipDemo } from './ContainerTextFlipDemo';
 
 const Hero = () => {
   return (
@@ -9,9 +10,9 @@ const Hero = () => {
       <Link href="/" className="border-b-2 text-blue-500 text-2xl">
         Join GDG on Campus
       </Link>
-      <div className="w-full max-w-4xl">
-        <h1 className="text-4xl md:text-6xl font-bold">
-          “Empowering Students to Learn, Build, and Connect”
+      <div className="w-full max-w-4xl text-center">
+        <h1 className="text-4xl w-full md:text-6xl font-bold text-center ">
+        <ContainerTextFlipDemo/>
         </h1>
         <p className="max-w-2xl mx-auto text-center mt-2 py-3 text-gray-400 text-lg sm:text-xl">
           GDG City Tech is a student-led tech community at CUNY City Tech, dedicated to inspiring innovation, collaboration, and career growth through hands-on workshops, speaker events, and project-based learning.

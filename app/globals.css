@@ -150,3 +150,19 @@
     @apply bg-background text-foreground;
   }
 }
+.infinity-text {
+  background-image: linear-gradient(to right, #4f46e5, #9333ea, #ec4899, #f59e0b);
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: textwrap 6s infinite linear;
+}
+
+@keyframes textwrap {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: -100% 0%;
+  }
+}
+
